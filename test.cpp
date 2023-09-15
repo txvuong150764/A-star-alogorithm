@@ -188,7 +188,7 @@ int main()
 {
   vector<vector<State>> board = ReadBoard("./1.board");
   int start[2] = {0, 0};
-  int end[2] = {4, 5};
+  int end[2] = {3, 5};
   auto res = Search(board, start, end);
   PrintBoard(res);
 }
